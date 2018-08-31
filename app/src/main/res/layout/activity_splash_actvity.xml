@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#a87ec3"
+    tools:context="com.fidenz.chami.dev.bhooztapp.activities.SplashActivity">
+
+    <ImageView
+        android:id="@+id/idbhooztsplash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:src="@drawable/bsplash"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textSize="@dimen/BhooztSplash"
+        android:text="Bhoozt"
+        />
+
+
+</RelativeLayout>

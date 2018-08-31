@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbarmain"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="#a87ec3"
+    android:paddingLeft="0dp"
+    app:contentInsetLeft="0dp"
+    app:contentInsetStart="0dp">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true">
+
+            <TextView
+                android:id="@+id/toobarname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:gravity="center"
+                android:fontFamily="@font/romy"
+                android:textColor="@android:color/white"
+                android:text="Bhoozt"
+                />
+
+
+        </RelativeLayout>
+
+
+        <!--<ImageView-->
+            <!--android:id="@+id/idcamera"-->
+            <!--android:layout_width="30dp"-->
+            <!--android:layout_height="30dp"-->
+            <!--android:layout_alignParentRight="true"-->
+            <!--android:layout_centerInParent="true"-->
+            <!--android:layout_marginLeft="5dp"-->
+            <!--android:layout_marginRight="10dp"-->
+            <!--android:src="@drawable/ic_camera" />-->
+
+        <!--<ImageView-->
+            <!--android:id="@+id/idekey"-->
+            <!--android:layout_width="30dp"-->
+            <!--android:layout_height="30dp"-->
+            <!--android:layout_alignParentRight="true"-->
+            <!--android:layout_centerInParent="true"-->
+            <!--android:layout_marginRight="60dp"-->
+            <!--android:layout_toLeftOf="@id/idcamera"-->
+            <!--android:src="@drawable/ic_key" />-->
+
+
+        <ImageView
+            android:id="@+id/idbackarrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:layout_margin="15dp"
+            android:padding="5dp"
+            android:src="@drawable/codebackrow" />
+
+
+    </RelativeLayout>
+
+
+</android.support.v7.widget.Toolbar>

@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/fragment_container3">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        >
+
+
+
+    <TextView
+        android:id="@+id/usemecoin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Use Me"
+        android:textSize="@dimen/Usemetext"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:textColor="#885f99"/>
+
+
+        <ImageView
+            android:id="@+id/cointab3"
+            android:layout_width="@dimen/coinwidth"
+            android:layout_height="@dimen/coinhight"
+            android:layout_marginBottom="100dp"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:layout_below="@+id/usemecoin"
+            android:layout_marginTop="40dp"
+            android:src="@drawable/headtwo" />
+
+        <TextView
+            android:id="@+id/textcoincount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/cointab3"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="false"
+            android:layout_marginBottom="@dimen/marginbottom_useme"
+            android:text="1200"
+            android:textColor="#885f99"
+            android:textSize="@dimen/UsemeCount"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+
+</RelativeLayout>

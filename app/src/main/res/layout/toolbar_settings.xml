@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingLeft="0dp"
+    app:contentInsetLeft="0dp"
+    app:contentInsetStart="0dp"
+    android:background="#a87ec3"
+    android:id="@+id/toolbarmain">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+        <TextView
+            android:id="@+id/toobarname"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="Settings"
+            android:gravity="center"
+            android:textSize="30dp"
+            android:fontFamily="@font/romy"
+            android:textColor="@android:color/white"
+            android:layout_centerInParent="true" />
+
+        <ImageView
+            android:id="@+id/idbackarrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:layout_margin="15dp"
+            android:padding="5dp"
+            android:src="@drawable/codebackrow" />
+
+
+
+    </RelativeLayout>
+
+
+
+
+</android.support.v7.widget.Toolbar>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/codesliderlayout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/editetxtround">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/idpadlelock"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:padding="2dp"
+            android:src="@drawable/padlelock" />
+
+        <EditText
+            android:id="@+id/idetcode"
+            android:layout_width="@dimen/idetcode"
+            android:layout_height="30dp"
+            android:background="@drawable/editetxtround"
+            android:hint="CODE"
+            android:paddingStart="4dp"
+            android:maxLength="5"
+            android:maxLines="1"
+            android:inputType="text"
+            android:imeOptions="actionDone"
+            android:textColor="#D3D3D3"
+            android:textSize="14dp"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

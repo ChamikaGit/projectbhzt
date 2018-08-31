@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="coincountfull">60dp</dimen>
+    <dimen name="cointext">24dp</dimen>
+    <dimen name="Bhooztmetext">70dp</dimen>
+    <dimen name="Usemetext">70dp</dimen>
+    <dimen name="BhooztSplash">70dp</dimen>
+    <dimen name="Mainactvity_margin_bottom">20dp</dimen>
+    <dimen name="coinwidth">300dp</dimen>
+    <dimen name="coinhight">300dp</dimen>
+    <dimen name="paddingcoin">50dp</dimen>
+    <dimen name="wintryagaintextsize">27dp</dimen>
+    <dimen name="wintryagainimagewidth">175dp</dimen>
+    <dimen name="wintryaginhight">175dp</dimen>
+    <dimen name="usemecoincount">35dp</dimen>
+    <dimen name="useme_coin_width">250dp</dimen>
+    <dimen name="useme_coin_hight">250dp</dimen>
+    <dimen name="marginbottom_useme">47dp</dimen>
+    <dimen name="idetcode">100dp</dimen>
+    <dimen name="UsemeCount">60dp</dimen>
+
+
+
+
+</resources>

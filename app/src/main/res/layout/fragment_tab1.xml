@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/fragment_container1">
+
+    <!--android:background="#C0CA33">-->
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+
+        <TextView
+            android:id="@+id/usemecoin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Bhoozt Me"
+            android:textSize="@dimen/Bhooztmetext"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:textColor="#885f99"/>
+
+
+
+
+        <ImageView
+            android:id="@+id/coin"
+            android:layout_width="@dimen/coinwidth"
+            android:layout_height="@dimen/coinhight"
+            android:layout_marginTop="40dp"
+            android:layout_gravity="center"
+            android:layout_below="@+id/usemecoin"
+            android:layout_marginBottom="100dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/headone" />
+
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

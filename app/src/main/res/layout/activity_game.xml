@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar_game" />
+
+    <!--<include layout="@layout/tickertextlayout" />-->
+
+    <include layout="@layout/marqueeayout" />
+
+    <LinearLayout
+        android:id="@+id/linmaingame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:id="@+id/act_game_pieceholder"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="#4a434d"
+            android:orientation="horizontal"
+            android:padding="5dp"
+            android:paddingLeft="15dp" />
+
+
+        <!--<LinearLayout-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="70dp"-->
+        <!--android:background="#4a434d"-->
+        <!--android:id="@+id/act_game_pieceholder"-->
+        <!--android:orientation="horizontal">-->
+
+
+        <!--</LinearLayout>-->
+
+
+        <RelativeLayout
+            android:id="@+id/act_game_puzzelholder"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="7"
+            android:background="@android:color/white"
+            android:orientation="vertical">
+
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true">
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:id="@+id/act_game_puzzelholder_1"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/coke1"
+                        android:orientation="horizontal"></LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/act_game_puzzelholder_2"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/gamepicedefault"
+                        android:orientation="horizontal">
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/act_game_puzzelholder_3"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/coke3"
+                        android:orientation="horizontal"></LinearLayout>
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:id="@+id/act_game_puzzelholder_4"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/gamepicedefault"
+                        android:orientation="horizontal"></LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/act_game_puzzelholder_5"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/coke5"
+                        android:orientation="horizontal"></LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/act_game_puzzelholder_6"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/gamepicedefault"
+                        android:orientation="horizontal"></LinearLayout>
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:id="@+id/act_game_puzzelholder_7"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/gamepicedefault"
+                        android:orientation="horizontal"></LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/act_game_puzzelholder_8"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/gamepicedefault"
+                        android:orientation="horizontal"></LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/act_game_puzzelholder_9"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/gamepicedefault"
+                        android:orientation="horizontal"></LinearLayout>
+
+                </TableRow>
+
+
+            </TableLayout>
+
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <include layout="@layout/advertistmnetlayout" />
+
+        </LinearLayout>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/idscore"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/idadcard"
+            android:background="@android:color/white"
+            android:orientation="horizontal"
+            android:weightSum="4">
+
+
+            <TextView
+                android:id="@+id/idpointcount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="0 Coins"
+                android:textColor="#a87ec3"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/idgrandpricetext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Grand prize 500"
+                android:textColor="#a87ec3"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="12 days left"
+                android:textColor="#a87ec3"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/idremainpices"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/rounded_textbackground"
+                android:gravity="center"
+                android:text="3/9"
+                android:textColor="@android:color/white"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.5"
+            android:background="#a87ec3">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true"
+                    android:gravity="center">
+
+
+                    <TextView
+                        android:id="@+id/idcointcoutfull"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:text="1200"
+                        android:textColor="@android:color/white"
+                        android:textSize="@dimen/coincountfull"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/idcointcoutfull"
+                        android:layout_centerHorizontal="true"
+                        android:text="- COINS -"
+                        android:textColor="@android:color/white"
+                        android:textSize="@dimen/cointext" />
+
+
+                </RelativeLayout>
+
+
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
